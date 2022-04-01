@@ -29,7 +29,7 @@ body {
 }
 
 .gris {
-    color: #42403f;
+    color: #787A91;
 }
 
 .woman-img {
@@ -37,6 +37,76 @@ body {
     border-radius: 10px;
 }
 
-.fs-40 {
-    font-size: 40px;
+.fs-14 {
+    font-size:14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.p-sec01 {
+    padding:10px;
+}
+
+/*Box shadow */
+
+.box-shadow {
+    box-shadow: inset 10px 10px 8px -10px #CCC, inset -10px -10px 8px -10px #CCC;
+}
+.content-box-wrapper .content-box h4{
+  font-weight: 500;
+  color:#F10086;
+  font-weight: 700;
+  font-size: 18px;;
+}
+
+.content-box-wrapper .content-box p{
+  font-size: 12px;
+  text-align: center;
+  color: #787A91
+}
+.content-box{
+    text-align: center;
+    padding: 15px;
+    height: 100%;
+    border-radius: 4px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.content-box:hover{
+    background:#fff;
+    box-shadow: 2px 2px 15px 0 rgba(135,135,135, 0.4);
+    transition: all 0.5s ease 0s;
+}
+.content-box .finbyz-icon img{
+    height:85px;
+}
+.content-box .finbyz-icon{
+    margin: 0 auto;
+}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+
+.img-producto01 {
+    width: 30%;
+    padding:15px;
+}
+
+.img-producto02 {
+    width: 45%;
+    padding:15px;
+}
+
+.img-producto03 {
+    width: 30%;
+    padding:15px;
 }
